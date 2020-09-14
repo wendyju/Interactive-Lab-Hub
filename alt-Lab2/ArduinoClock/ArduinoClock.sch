@@ -1695,58 +1695,6 @@ DIN A3, landscape with location and doc. field</description>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 </package>
-<package name="FIDUCIAL_1MM">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-</package>
-<package name="FIDUCIAL-1X2.5">
-<circle x="0" y="0" radius="1.1" width="1.2" layer="29"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="39"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="41"/>
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<text x="-0.508" y="-1.016" size="0.4064" layer="25">1mm</text>
-</package>
-<package name="PASS-ROUND">
-<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
-round, layers 1 + 16 + 21 + 39 + 49</description>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="49"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="49"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="29"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="30"/>
-</package>
 <package name="SOLDERJUMPER_2WAY_OPEN_NOPASTE">
 <wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.2032" layer="21" curve="-90"/>
@@ -2868,11 +2816,6 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="FIDUCIAL">
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
 <symbol name="SOLDERJUMPER_2WAY">
 <wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.635" y1="-0.635" x2="-0.635" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
@@ -3825,36 +3768,6 @@ Op. Temp: -40~85°C</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL" prefix="FID">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-&lt;p&gt;Various fiducial points for machine vision alignment.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1X2.5" package="FIDUCIAL-1X2.5">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="ROUND" package="PASS-ROUND">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="&quot;&quot;" package="FIDUCIAL_1MM">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SOLDERJUMPER_2WAY" prefix="SJ" uservalue="yes">
 <description>&lt;b&gt;2-Way Solder Jumper&lt;/b&gt;</description>
 <gates>
@@ -4502,8 +4415,6 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <part name="ON" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="GREEN"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="FD1" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="FD2" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -4660,8 +4571,6 @@ Cut trace and solder to 3V3 to change</text>
 <instance part="P+5" gate="1" x="373.38" y="228.6" smashed="yes">
 <attribute name="VALUE" x="375.285" y="231.14" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="FD1" gate="G$1" x="375.92" y="27.94" smashed="yes"/>
-<instance part="FD2" gate="G$1" x="381" y="27.94" smashed="yes"/>
 <instance part="GND11" gate="1" x="231.14" y="208.28" smashed="yes">
 <attribute name="VALUE" x="228.6" y="205.74" size="1.778" layer="96"/>
 </instance>
