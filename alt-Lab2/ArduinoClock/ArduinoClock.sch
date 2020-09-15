@@ -5553,17 +5553,21 @@ Cut trace and solder to 3V3 to change</text>
 <approved hash="104,1,63.5,76.2,U2,AVCC,VCCIO,,,"/>
 <approved hash="104,1,63.5,73.66,U2,AGND,GND,,,"/>
 <approved hash="104,1,63.5,68.58,U2,VCC,VCCIO,,,"/>
-<approved hash="202,1,-38.1,228.6,U3G$1,RI,,,,"/>
-<approved hash="104,1,-68.58,254,U3G$1,VIO,3.3V,,,"/>
-<approved hash="104,1,-68.58,251.46,U3G$1,VDD,3.3V,,,"/>
-<approved hash="104,1,-68.58,248.92,U3G$1,REGIN,3.3V,,,"/>
-<approved hash="104,1,-68.58,228.6,U3G$1,VBUS,+5V,,,"/>
-<approved hash="202,1,-38.1,226.06,U3G$1,DCD,,,,"/>
-<approved hash="202,1,-38.1,220.98,U3G$1,DSR,,,,"/>
-<approved hash="202,1,-38.1,210.82,U3G$1,CTS,,,,"/>
-<approved hash="104,1,-78.74,266.7,U3G$2,TP,GND,,,"/>
+<approved hash="202,1,99.06,198.12,U3G$1,RI,,,,"/>
+<approved hash="104,1,68.58,223.52,U3G$1,VIO,3.3V,,,"/>
+<approved hash="104,1,68.58,220.98,U3G$1,VDD,3.3V,,,"/>
+<approved hash="104,1,68.58,218.44,U3G$1,REGIN,3.3V,,,"/>
+<approved hash="104,1,68.58,198.12,U3G$1,VBUS,+5V,,,"/>
+<approved hash="202,1,99.06,195.58,U3G$1,DCD,,,,"/>
+<approved hash="202,1,99.06,190.5,U3G$1,DSR,,,,"/>
+<approved hash="202,1,99.06,180.34,U3G$1,CTS,,,,"/>
+<approved hash="104,1,58.42,236.22,U3G$2,TP,GND,,,"/>
 <approved hash="104,1,218.44,193.04,U4,IN,+5V,,,"/>
-<approved hash="115,1,299.845,191.728,VSELECT,,,,,"/>
+<approved hash="104,1,193.04,129.54,IC1,VCC,3.3V,,,"/>
+<approved hash="106,1,193.04,124.46,!RTC_RST,,,,,"/>
+<approved hash="106,1,193.04,132.08,32KHZ,,,,,"/>
+<approved hash="106,1,193.04,127,SQW,,,,,"/>
+<approved hash="113,1,299.845,191.728,VSELECT,,,,,"/>
 </errors>
 </schematic>
 </drawing>
